@@ -1,4 +1,4 @@
-package Miam;
+package com.cursan.Miam;
 
 public class Main {
     public static void main(String[] args){
@@ -7,7 +7,7 @@ public class Main {
         grandFour.puissance = 260;
 
 
-        Aliment cake = new com.cursan.miam.Aliment();
+        Aliment cake = new Aliment();
         cake.nom = "cake aux fruits";
         cake.estCuit = false;
         cake.manger();

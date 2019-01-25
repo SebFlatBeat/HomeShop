@@ -1,4 +1,4 @@
-package homeshop;
+package com.cursan.homeshop;
 
 public class Fridge extends Product {
     private int liter;

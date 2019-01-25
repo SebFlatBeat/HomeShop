@@ -1,4 +1,4 @@
-package Miam;
+package com.cursan.Miam;
 
 public class Resistance {
 }

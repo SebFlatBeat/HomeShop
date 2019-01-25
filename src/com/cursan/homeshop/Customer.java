@@ -1,4 +1,4 @@
-package homeshop;
+package com.cursan.homeshop;
 
 public class Customer {
     private String fullname;

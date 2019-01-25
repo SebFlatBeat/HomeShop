@@ -1,4 +1,4 @@
-package homeshop;
+package com.cursan.homeshop;
 
 import java.util.Map;
 
