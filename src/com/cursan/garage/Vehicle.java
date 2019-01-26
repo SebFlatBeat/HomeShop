@@ -1,7 +1,7 @@
 package com.cursan.garage;
 
-public class Vehicle {
-    private String modelName;
+public abstract class Vehicle {
+    protected String modelName;
     private String description;
     private String manufacturer;
     private String color;
@@ -10,7 +10,10 @@ public class Vehicle {
     private int weight;
     private int[] dimensions = new int[3];
 
-    public Vehicle (String modelName,String description,String manufacturer,String color,int speed,int year,int weight,int[] dimensions) {
+    public Vehicle() {
+    }
+
+    public Vehicle (String modelName, String description, String manufacturer, String color, int speed, int year, int weight, int[] dimensions) {
         this.modelName = modelName;
         this.description = description;
         this.manufacturer = manufacturer;
@@ -19,15 +22,11 @@ public class Vehicle {
         this.year = year;
         this.weight = weight;
         this.dimensions = dimensions;
-
-        public void start() {
-            System.out.println("Je suis une" + modelName + "et je démarre");
-        }
-
-        public void stop(){
-            System.out.println("Je suis une" + modelName + " et je m'arrête");
-        }
     }
+
+        public abstract void start();
+
+        public abstract void stop();
 
     public String getModelName() {
         return modelName;
