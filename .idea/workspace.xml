@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5edd99cf-d82d-4a6c-8662-163bd9ece609" name="Default" comment="Ajout du package Garage &#10;Ajout des classes Vehicle et Car">
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/garage/Bike.java" afterDir="false" />
+    <list default="true" id="5edd99cf-d82d-4a6c-8662-163bd9ece609" name="Default" comment="Ajout de la class Bike">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/garage/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/garage/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/garage/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/garage/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/Fridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/homeshop/Fridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/homeshop/Television.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,6 +30,28 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/Fridge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="6" column="91" selection-start-line="6" selection-start-column="91" selection-end-line="6" selection-end-column="91" />
+              <folding>
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/Television.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cursan/garage/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cursan/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="121">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,8 +156,9 @@
         <option value="$PROJECT_DIR$/src/com/cursan/garage/Car.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/garage/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/garage/Bike.java" />
-        <option value="$PROJECT_DIR$/src/com/cursan/homeshop/Television.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/cursan/homeshop/Television.java" />
+        <option value="$PROJECT_DIR$/src/com/cursan/homeshop/Fridge.java" />
       </list>
     </option>
   </component>
@@ -206,7 +226,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548497563587" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548541315802" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
@@ -311,14 +331,21 @@
       <option name="project" value="LOCAL" />
       <updated>1548409548908</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ajout de la class Bike">
+      <created>1548497660804</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548497660804</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2065053" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2065053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -334,8 +361,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.32569557" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49848714" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50226927" side_tool="true" visible="true" weight="0.32569557" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.4977307" visible="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -356,7 +383,8 @@
     <MESSAGE value="Ajout des class television et fridge" />
     <MESSAGE value="Refactor des packages" />
     <MESSAGE value="Ajout du package Garage &#10;Ajout des classes Vehicle et Car" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout du package Garage &#10;Ajout des classes Vehicle et Car" />
+    <MESSAGE value="Ajout de la class Bike" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la class Bike" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/cursan/Miam/Aliment.java">
@@ -503,30 +531,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/Fridge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/Television.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="41">
+          <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cursan/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="121">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/Fridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="6" column="91" selection-start-line="6" selection-start-column="91" selection-end-line="6" selection-end-column="91" />
+          <folding>
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
           </folding>
         </state>
       </provider>
