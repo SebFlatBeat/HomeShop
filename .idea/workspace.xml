@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5edd99cf-d82d-4a6c-8662-163bd9ece609" name="Default" comment="Creation du code generate et getTotal">
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/homeshop/FileWriter.java" afterDir="false" />
+    <list default="true" id="5edd99cf-d82d-4a6c-8662-163bd9ece609" name="Default" comment="Modification de generate">
+      <change afterPath="$PROJECT_DIR$/src/com/cursan/homeshop/NoProductinBillException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/cursan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/cursan/homeshop/BillTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/cursan/homeshop/BillTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,48 +26,46 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/cursan/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            <state relative-caret-position="330">
+              <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/Delivery.java">
+        <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/RelayDelivery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-              <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/FileWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+            <state relative-caret-position="143">
+              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#186#204#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/BillTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="54" column="85" selection-start-line="54" selection-start-column="85" selection-end-line="54" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/NoProductinBillException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -116,14 +116,15 @@
         <option value="$PROJECT_DIR$/test/com/cursan/homeshop/RelayDeliveryTest.java" />
         <option value="$PROJECT_DIR$/test/com/cursan/homeshop/ExpressDeliveryTest.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/homeshop/Writer.java" />
-        <option value="$PROJECT_DIR$/test/com/cursan/homeshop/BillTest.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/homeshop/Delivery.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/homeshop/DirectDelivery.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/homeshop/ExpressDelivery.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/homeshop/RelayDelivery.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/homeshop/TakeAwayDelivery.java" />
-        <option value="$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/homeshop/FileWriter.java" />
+        <option value="$PROJECT_DIR$/src/com/cursan/homeshop/NoProductinBillException.java" />
+        <option value="$PROJECT_DIR$/test/com/cursan/homeshop/BillTest.java" />
+        <option value="$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/Main.java" />
       </list>
     </option>
@@ -168,31 +169,6 @@
               <item name="cursan" type="462c0819:PsiDirectoryNode" />
               <item name="homeshop" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cursan" type="462c0819:PsiDirectoryNode" />
-              <item name="Paris" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="cursan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="cursan" type="462c0819:PsiDirectoryNode" />
-              <item name="homeshop" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -205,7 +181,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548603401315" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548609638126" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
@@ -252,20 +228,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cursan.Miam.Main" />
-      <module name="HomeShop" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cursan.Miam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -283,6 +245,23 @@
       <option name="PACKAGE_NAME" value="com.cursan.homeshop" />
       <option name="MAIN_CLASS_NAME" value="com.cursan.homeshop.BillTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BillTest.Given__emptyProductList_When_generatingList_Then_throwException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cursan.homeshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cursan.homeshop" />
+      <option name="MAIN_CLASS_NAME" value="com.cursan.homeshop.BillTest" />
+      <option name="METHOD_NAME" value="Given__emptyProductList_When_generatingList_Then_throwException" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -338,10 +317,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.BillTest.Given__emptyProductList_When_generatingList_Then_throwException" />
         <item itemvalue="JUnit.BillTest" />
         <item itemvalue="JUnit.ExpressDeliveryTest" />
         <item itemvalue="JUnit.RelayDeliveryTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548601596334</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Modification de generate">
+      <created>1548603450613</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1548603450613</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -437,6 +423,21 @@
     <history-entry file="BillTest - 2019.01.27 at 16h 04m 58s.xml">
       <configuration name="BillTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BillTest_Given__emptyProductList_When_generatingList_Then_throwException - 2019.01.27 at 18h 16m 15s.xml">
+      <configuration name="BillTest.Given__emptyProductList_When_generatingList_Then_throwException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BillTest_Given__emptyProductList_When_generatingList_Then_throwException - 2019.01.27 at 18h 17m 36s.xml">
+      <configuration name="BillTest.Given__emptyProductList_When_generatingList_Then_throwException" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -485,7 +486,8 @@
     <MESSAGE value="Création Interface de livraison" />
     <MESSAGE value="Creation des Test Bill" />
     <MESSAGE value="Creation du code generate et getTotal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation du code generate et getTotal" />
+    <MESSAGE value="Modification de generate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification de generate" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/cursan/Miam/Resistance.java">
@@ -592,17 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cursan/Miam/Four.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cursan/Paris/Bus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -663,33 +654,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/CustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/ExpressDeliveryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/BillTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -747,21 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#186#204#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/RelayDelivery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -792,10 +747,56 @@
     <entry file="file://$PROJECT_DIR$/facture leblanc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cursan/Miam/Four.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/NoProductinBillException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/BillTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="54" column="85" selection-start-line="54" selection-start-column="85" selection-end-line="54" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#186#204#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cursan/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        <state relative-caret-position="330">
+          <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
         </state>
       </provider>
     </entry>

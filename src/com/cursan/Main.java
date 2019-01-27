@@ -17,24 +17,27 @@ public class Main {
     bill.addProduct(tv, 1);
     bill.addProduct(fridge, 1);
 
-    bill.generate(new Writer() {
-        @Override
-        public void start() {
+    try {
+        bill.generate(new Writer() {
+            @Override
+            public void start() {
 
-        }
+            }
 
-        @Override
-        public void writeLine(String line) {
-            System.out.println(line);
+            @Override
+            public void writeLine(String line) {
+                System.out.println(line);
 
-        }
+            }
 
-        @Override
-        public void stop() {
+            @Override
+            public void stop() {
 
-        }
-    });
-
+            }
+        });
+    }catch(NoProductinBillException e) {
+        System.err.println("Pas de produit dans la facture");
+    }
 
     }
 }

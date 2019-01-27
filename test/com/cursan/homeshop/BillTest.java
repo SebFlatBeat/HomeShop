@@ -3,6 +3,7 @@ package com.cursan.homeshop;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class BillTest {
     private String output;
@@ -46,5 +47,11 @@ class BillTest {
             bill.addProduct(tv,1);
             bill.addProduct(fridge,1);
             assertEquals(870.98,bill.getTotal(),0.01);
+    }
+
+    @Test
+    public void Given__emptyProductList_When_generatingList_Then_throwException(){
+        Bill bill = new Bill(customer, lowCostRelayDelivery);
+        assertThrows(NoProductinBillException.class,() -> bill.generate(writerMock));
     }
 }
