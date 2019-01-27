@@ -12,7 +12,7 @@ public class Bill {
         this.customer = customer;
         this.delivery = delivery;
     }
-        
+
     /**
      * Add a product with a quantity in the bill
      * @param product product to add
@@ -28,5 +28,12 @@ public class Bill {
 
     public Map<Product, Integer> getProducts() {
         return products;
+    }
+
+    public void generate (Writer writer){
+    }
+
+    public double getTotal(){
+        return 0;
     }
 }

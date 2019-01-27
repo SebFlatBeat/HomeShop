@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5edd99cf-d82d-4a6c-8662-163bd9ece609" name="Default" comment="Correction des class Television et Fridge">
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/Paris/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/Paris/MoyenDeLocomotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/Paris/Parisien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/Paris/Taxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/homeshop/Delivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/homeshop/DirectDelivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/homeshop/ExpressDelivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/homeshop/RelayDelivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cursan/homeshop/TakeAwayDelivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/cursan/homeshop/ExpressDeliveryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/cursan/homeshop/RelayDeliveryTest.java" afterDir="false" />
+    <list default="true" id="5edd99cf-d82d-4a6c-8662-163bd9ece609" name="Default" comment="Création Interface de livraison">
+      <change afterPath="$PROJECT_DIR$/src/com/cursan/homeshop/Writer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/Miam/Four.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/Miam/Four.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/cursan/homeshop/BillTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/cursan/homeshop/BillTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,80 +23,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cursan/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="245">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/Delivery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/DirectDelivery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding>
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/RelayDelivery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/RelayDeliveryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/ExpressDelivery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-              <folding>
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#186#204#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/BillTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/CustomerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/ExpressDeliveryTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -119,14 +79,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/TakeAwayDelivery.java">
+        <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/Writer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <element signature="e#125#126#0" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -137,8 +93,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -164,7 +120,6 @@
         <option value="$PROJECT_DIR$/src/com/cursan/homeshop/Product.java" />
         <option value="$PROJECT_DIR$/src/homeshop/Product.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/Miam/homeshop/Television.java" />
-        <option value="$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/garage/Car.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/garage/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/garage/Bike.java" />
@@ -183,6 +138,9 @@
         <option value="$PROJECT_DIR$/src/com/cursan/homeshop/RelayDelivery.java" />
         <option value="$PROJECT_DIR$/test/com/cursan/homeshop/ExpressDeliveryTest.java" />
         <option value="$PROJECT_DIR$/src/com/cursan/homeshop/ExpressDelivery.java" />
+        <option value="$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java" />
+        <option value="$PROJECT_DIR$/src/com/cursan/homeshop/Writer.java" />
+        <option value="$PROJECT_DIR$/test/com/cursan/homeshop/BillTest.java" />
       </list>
     </option>
   </component>
@@ -233,6 +191,24 @@
               <item name="cursan" type="462c0819:PsiDirectoryNode" />
               <item name="Paris" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="cursan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="cursan" type="462c0819:PsiDirectoryNode" />
+              <item name="homeshop" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -245,7 +221,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548546535062" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548596869395" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
@@ -414,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548541373480</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Création Interface de livraison">
+      <created>1548546582670</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1548546582670</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -435,7 +418,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2065053" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2065053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -444,15 +427,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848714" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.32733223" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5045386" side_tool="true" visible="true" weight="0.32569557" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49546143" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49546143" weight="0.32569557" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -475,23 +458,10 @@
     <MESSAGE value="Ajout du package Garage &#10;Ajout des classes Vehicle et Car" />
     <MESSAGE value="Ajout de la class Bike" />
     <MESSAGE value="Correction des class Television et Fridge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction des class Television et Fridge" />
+    <MESSAGE value="Création Interface de livraison" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création Interface de livraison" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/CustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/BillTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cursan/Miam/Resistance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -523,19 +493,6 @@
             <element signature="e#163#164#0" expanded="true" />
             <element signature="e#196#197#0" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#186#204#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -715,6 +672,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/RelayDeliveryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/RelayDelivery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -726,26 +693,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/RelayDeliveryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/ExpressDelivery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="238">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/ExpressDelivery.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="245">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#186#204#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cursan/homeshop/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -755,6 +741,20 @@
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/cursan/homeshop/BillTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
           </folding>
         </state>
       </provider>
