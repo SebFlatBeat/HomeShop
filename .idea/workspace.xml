@@ -2,34 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5edd99cf-d82d-4a6c-8662-163bd9ece609" name="Default" comment="Creation du BillServlet">
-      <change afterPath="$PROJECT_DIR$/facture leblanc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/Miam/Aliment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/Miam/Four.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/Miam/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/Miam/Resistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/Miam/Soufflerie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/Paris/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/Paris/MoyenDeLocomotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/Paris/Parisien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/Paris/Taxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/garage/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/garage/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/garage/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/homeshop/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/homeshop/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/homeshop/Delivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/homeshop/DirectDelivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/homeshop/ExpressDelivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/homeshop/FileWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/homeshop/Fridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/homeshop/NoProductinBillException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/homeshop/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/homeshop/RelayDelivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/homeshop/TakeAwayDelivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/homeshop/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/homeshop/Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/homeshop/web/BillServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
@@ -67,16 +39,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="114" selection-start-column="37" selection-end-column="40" />
+            <state relative-caret-position="238">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cursan/homeshop/web/BillServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -268,6 +240,21 @@
               <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -282,7 +269,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548687765331" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548688073669" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
@@ -521,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548680803822</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Creation du BillServlet">
+      <created>1548687955451</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1548687955451</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -962,23 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cursan/homeshop/web/HelloWorldServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="114" selection-start-column="37" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
@@ -994,6 +971,23 @@
             <element signature="imports" expanded="true" />
             <element signature="e#412#421#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cursan/homeshop/web/HelloWorldServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
