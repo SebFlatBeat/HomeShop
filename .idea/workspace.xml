@@ -1,41 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5edd99cf-d82d-4a6c-8662-163bd9ece609" name="Default" comment="Ajout d'une exception">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cursan/homeshop/web/HelloWorldServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5edd99cf-d82d-4a6c-8662-163bd9ece609" name="Default" comment="Ajout de la librairie Maven / De Jetty&#10;Creation du dossier webapp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeShop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/Miam/Aliment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/Miam/Four.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/Miam/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/Miam/Resistance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/Miam/Soufflerie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/Paris/Bus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/Paris/MoyenDeLocomotion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/Paris/Parisien.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/Paris/Taxi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/garage/Bike.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/garage/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/garage/Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/Bill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/Delivery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/DirectDelivery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/ExpressDelivery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/FileWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/Fridge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/NoProductinBillException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/RelayDelivery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/TakeAwayDelivery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/Television.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cursan/homeshop/Writer.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -279,7 +246,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548680532105" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548680663597" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
@@ -503,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548609700305</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Ajout de la librairie Maven / De Jetty&#10;Creation du dossier webapp">
+      <created>1548680726780</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1548680726780</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -592,7 +566,8 @@
     <MESSAGE value="Creation du code generate et getTotal" />
     <MESSAGE value="Modification de generate" />
     <MESSAGE value="Ajout d'une exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout d'une exception" />
+    <MESSAGE value="Ajout de la librairie Maven / De Jetty&#10;Creation du dossier webapp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la librairie Maven / De Jetty&#10;Creation du dossier webapp" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cursan/Miam/Resistance.java">
